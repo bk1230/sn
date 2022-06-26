@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    padding: 75px 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.underline{
+     border-bottom: 5px solid #00000042;
+     display: block;
+     width: 5%;
+     margin: 15px auto;
+}
+
+/* ----------header start---------- */
+
+header{
+    background-color: #87509c;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding-bottom: 75px;
+}
+nav{
+   width: 100%;
+   float: left;
+   padding: 10px 0px;
+   margin-top: 30px;
+}
+.logo-part{
+   width: 50%;
+   float: left;
+   text-align: left;
+}
+.menu-part{
+   width: 50%;
+   float: left; 
+}
+.menu-part ul{
+     padding: 15px 0px;
+}
+.menu-part li a:hover,
+.menu-part li a.active{
+     /* color: #00000075;  */
+     color: #fff;
+     background-color: #00000075;
+}
+
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+    /* margin: 0px 10px; */
+}
+.menu-part a{
+     font-size: 20px;
+     color: #fff;
+     text-decoration: none;
+     padding: 10px;
+}
+.menu-part a:hover{
+     background-color: #00000075;
+     padding: 10px;
+     border-radius: 5px;
+     transition: ease-in-out 0.8s;
+     color: #fff;
+
+}
+.header-writing-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+}
+.header-writing-part h1{
+    
+}
+.header-writing-part a button{
+    width: 200px;
+    padding: 15px; 
+    color: white;
+    background: #eb7d4b;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.header-writing-part a button:hover{
+    
+}
+    
+/* -------Servicess section-------- */
+
+#service{
+    width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    color: #fff;
+    text-align: center;
+}
+.service-writing-part{
+    width: 100%;
+    float: left;
+}
+.service-writing-part h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.service-writing-part p{
+     width: 50%;
+     margin: auto;
+}
+.service-box-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.service-box{
+    width: 25%;
+    float: left;
+     padding: 20px; 
+
+}
+.service-box img{
+
+}
+.service-box h2{
+    margin: 10px 0px;
+}
+.service-box p{
+
+}
+
+
+/*------------code from sir has been ended--------- */
+
+#team{
+    width: 100%;
+    float: left;
+    background-color: #e7f1f8;
+    color: #000;
+    text-align: center;
+}
+.team-writing-part{
+    width: 100%;
+    float: left;
+}
+.team-writing-part h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.team-writing-part p{
+     width: 50%;
+     margin: auto;
+}
+.team-box-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.team-box{
+    width: 25%;
+    float: left;
+     padding: 20px; 
+
+}
+.team-box img{
+     width: 120px;
+     height: 124px;
+     border-radius: 100px;
+}
+.team-box h2{
+    margin: 10px 0px;
+}
+.team-box h4{
+    margin-bottom: 30px;
+    color: #aadff2;
+}
+.icon{
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.team-box p{
+
+}
+/* ----------skill section----------- */
+
+#skill{
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+.skill-writing-part{
+    width: 100%;
+    float: left;
+}
+.skill-writing-part h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.skill-writing-part p{
+     width: 50%;
+     margin: auto;
+}
+.skill-box-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.skill-box{
+    width: 25%;
+    float: left;
+    padding: 20px; 
+
+}
+.team-box img{
+     width: 120px;
+     height: 124px;
+     border-radius: 100px;
+}
+.team-box h2{
+    margin: 10px 0px;
+}
+
+
+/* ----------portfolio section--------- */
+
+#portfolio{
+    width: 100%;
+    float: left; 
+    background-color: #ffdd99;
+    color: #000;
+    text-align: center;
+}
+.portfolio-writing-part h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.btn{
+    width: 100%;
+    /* margin-top: 20px; */
+    font-weight: 500;
+}
+.btn .btn-1{
+    width: 50px;
+    height: 25px;
+    background-color: #fff;
+    margin-right: 5px;
+    color: #000;
+    
+}
+.btn .btn-2{
+    width: 50px;
+    height: 25px;
+    background-color: #ebc985;
+    margin-right: 5px;
+    color: #000;
+}
+.btn .btn-3{
+    width: 50px;
+    height: 25px;
+    background-color: #ebc985;
+    margin-right: 5px;
+    color: #000;
+}
+.btn .btn-4{
+    width: 50px;
+    height: 25px;
+    background-color: #ebc985;
+    color: #000;
+}
+.portfolio-img{
+     width: 90%;
+    display: flex;
+    margin-left: 220px;
+    margin-top: 50px; 
+}
+.container button{
+    width: 200px;
+    height: 50px;
+    background-color: #17c2a4;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+#our-clients{
+    width: 100%;
+    float: left; 
+    background-color: #d74680;
+    color: #000;
+    text-align: center;
+}
+.first-clients-purpose{
+    width: 100%;
+    display: flex;
+    margin-top: 50px; 
+    margin-left: 200px;
+    /* margin-bottom: 50px; */
+}
+.clients img{
+    float: left;
+    border-radius: 200px;
+}
+.clients p{
+    float: right; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.secend-clients-purpose{
+    width: 100%;
+    display: flex;
+    margin-top: 50px; 
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.clients-writing-part h2{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #fff;
+}
+.clients-writing-part p{
+    color: #fff;
+}
+.clients p{
+    text-align: left;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.clients h3, h6{
+    margin-right: 110px;
+    color: #fff;
+}
+.clients h6{
+    color: #ffdd99;
+}
+
+/* -----------contact page----------- */
+#contact-page{
+    width: 100%;
+    float: left; 
+    background-color: #3c5499;
+    color: #fff;
+    text-align: center;
+}
+.name{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    float: left;
+    background-color: #fff;
+}
+.email{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    float: right;
+    background-color: #fff;
+}
+/* ------------form------------- */
+
+input[type=text]{
+    width: 30%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+    background-color: #273a71;
+    color: #fff;
+  }
+ 
+  textarea {
+    width: 60%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 16px;
+    background-color: #273a71;
+    color: #fff;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container-1 {
+    border-radius: 5px;
+     padding: 20px; 
+  }
+  /* ----------footer start--------- */
+  #footer{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: #344b8e;
+}
+nav{
+    width: 100%;
+    float: left;
+    /* padding: 10px 0px; */
+    text-align: center;
+ }
+ .footer-menu{
+    width: 100%;
+    float: left; 
+ }
+ .footer-menu ul{
+      /* padding: 15px 0px; */
+      margin-top: 30px;
+ }
+
+.footer-menu li a:hover,
+.footer-menu li a.active{
+    color: #30bae7;
+}
+
+ .footer-menu li{
+     list-style: none;
+     display: inline-block;
+ }
+ .footer-menu a{
+      font-size: 20px;
+      color: #fff;
+      text-decoration: none;
+       padding: 0px 10px; 
+ }
+ .footer-menu a:hover{
+      background-color: #00000075;
+       padding: 10px; 
+      border-radius: 5px;
+      transition: ease-in-out 0.8s;
+ }
